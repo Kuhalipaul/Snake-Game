@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html,body{
+    height: 100%;
+    width: 100%; 
+}
+canvas{
+    display: flex;
+    position: relative;
+}
+
+
+#mycanvas{
+    width: 70%;
+    height: 450px;
+    background-color: black;
+    border: 5px solid orange;
+    margin: 50px;
+    align-items: center;
+    justify-content: center;
+}
+/* Extra large devices (large desktops, 1200px and up)*/
+/* @media (min-width: 1200px) { 
+    #mycanvas{   
+    background-color: #E7A652;
+    border:5px solid black;
+}
+} */
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+    html,body{
+        height: 100%;
+        width: 100%; 
+    }
+
+    #mycanvas{
+        background-color: #610749;
+        border:5px solid black;
+        margin: 50px;
+    }
+ }
+ /*Medium devices (tablets, 768px and up)*/
+ @media (min-width: 768px) and (max-width: 991.98px) { 
+    html,body{
+        height: 100%;
+        width: 100%; 
+    }
+   
+    #mycanvas{
+        height: 370px;
+        background-color: #c52505;
+        border:5px solid black;
+        margin: 50px;
+    }
+
+ }
+
+ /*Small devices (landscape phones, 576px and up)*/
+ @media (min-width: 576px) and (max-width: 767.98px) { 
+    html,body{
+        height: 100%;
+        width: 100%; 
+    }
+    
+    #mycanvas{
+        height: 365px;
+        background-color: #440894;
+        border:5px solid black;
+        margin: 50px;
+    }  
+  }
+
+ /*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) { 
+   
+    html,body{
+        height: 100%;
+        width: 100%; 
+    }
+     #mycanvas{
+        height: 340px;
+        background-color: #043e89;
+        border:5px solid black;
+        margin: 50px;
+    }
+}
+
